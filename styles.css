@@ -30,11 +30,12 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: white;
-    transition: color 0.3s;
+    transition: color 0.3s, background-color 0.3s; 
+    border-radius: 5px; 
+    display: inline-block; 
 }
 
 nav ul li a:hover {
-    color: black;
-    background-color: white;
-    
+    color: black; 
+    background-color: white; 
 }
