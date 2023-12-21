@@ -82,5 +82,6 @@ nav ul li a:hover {
     font-weight: bold;
     font-style: italic;
     color: var(--main-color);
+    padding-top: 5%;
 }
 
