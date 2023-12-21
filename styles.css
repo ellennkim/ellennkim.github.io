@@ -70,6 +70,16 @@ nav ul li a {
     display: inline-block; 
 }
 
+.navbar-bottom {
+    background-color: var(--main-color);
+    color: white;
+    display: flex;
+    justify-content: left;
+    list-style: none;
+    margin: 0;
+    padding-top: 1%;
+}
+
 nav ul li a:hover {
     color: var(--highlight-color); 
 }
@@ -106,4 +116,8 @@ nav ul li a:hover {
     top: 0;
     left: 0;
     z-index: 0; /* Place canvas behind other elements */
+}
+
+.copyright {
+    color: white;
 }
