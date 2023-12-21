@@ -42,6 +42,6 @@ nav ul li a:hover {
 
 @font-face {
     font-family: 'GildaDisplay';
-    src: url('fonts/Gilda_Display/GildaDisplay-Regular.ttf') format('ttf'),
+    src: url('fonts/Gilda_Display/GildaDisplay-Regular.ttf') format('truetype'),
   }
   
