@@ -1,43 +1,6 @@
-body {
-    margin: 0;
-    padding: 0;
-    font-family: Caudex-BoldItalic, sans-serif;
-}
-
-header {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 20px 0;
-}
-
-main {
-    padding: 20px;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-}
-
-nav ul li {
-    margin: 0 15px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: white;
-    transition: color 0.3s, background-color 0.3s; 
-    border-radius: 5px; 
-    display: inline-block; 
-}
-
-nav ul li a:hover {
-    color: black; 
-    background-color: white; 
+:root {
+    --main-color: #45507F;
+    --tint-color: #D3D7E6;
 }
 
 @font-face {
@@ -67,4 +30,57 @@ nav ul li a:hover {
     font-style: italic;
     font-weight: normal;
 }
-  
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Caudex-Regular, sans-serif;
+}
+
+header {
+    background-color: var(--main-color);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+main {
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding-right: 25px;
+    margin: 0;
+    display: flex;
+    justify-content: right;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s, background-color 0.3s; 
+    border-radius: 5px; 
+    display: inline-block; 
+}
+
+nav ul li a:hover {
+    color: black; 
+    background-color: white; 
+}
+
+.front-page {
+    text-align: left;
+}
+
+.name {
+    font-size: 7vw;
+    font-weight: bold;
+    font-style: italic;
+    color: var(--main-color);
+}
+
