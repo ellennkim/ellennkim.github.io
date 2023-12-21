@@ -39,3 +39,9 @@ nav ul li a:hover {
     color: black; 
     background-color: white; 
 }
+
+@font-face {
+    font-family: 'GildaDisplay';
+    src: url('fonts/Gilda_Display/GildaDisplay-Regular.ttf') format('ttf'),
+  }
+  
