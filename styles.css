@@ -3,6 +3,7 @@
     --highlight-color: #D3D7E6;
     --shadow-color: #29304c;
     --darker-tint: #58628c;
+    --blue-two: #538B9A;
 }
 
 @font-face {
@@ -127,4 +128,14 @@ nav ul li a:hover {
 
 .copyright {
     color: white;
+}
+
+.jumbotron-title {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.korean-name {
+    float: right;
+    color: var(--blue-two);
 }
