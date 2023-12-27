@@ -23,13 +23,19 @@
     <main>
         <!-- bootstrap carousel -->
         <div id="projectCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <!-- <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button> -->
+            </div>
+
             <div class="carousel-inner">
 
                 <!-- Project 1 - Generative Methods-->
                 <div class="carousel-item active">
-                    <img src="gen-methods.png" class="d-block w-100" alt="Project 1">
-                    <div class="carousel-caption">
-                        <h5>Generative Methods</h5>
+                    <img src="assets/gen-methods.png" class="d-block w-100 img-fluid" alt="Project 1">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="carousel-title">Generative Methods</h5>
                         <p>A series of front-end projects using HTML, CSS & JavaScript (p5.js and Vue.js).</p>
                     </div>
                 </div>
@@ -37,7 +43,7 @@
                 <!-- more projects here
                 <div class="carousel-item">
                     <img src="project2.jpg" class="d-block w-100" alt="Project 2">
-                    <div class="carousel-caption">
+                    <div class="carousel-caption d-none d-md-block">
                         <h5>Project 2 Title</h5>
                         <p>Description of Project 2.</p>
                     </div>
@@ -48,18 +54,18 @@
             </div>
 
             <!-- Carousel Controls -->
-            <button class="carousel-control-prev" type="button" data-bs-target="#projectCarousel" data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#projectCarousel" data-bs-slide="prev" data-bs-theme="dark">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#projectCarousel" data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#projectCarousel" data-bs-slide="next" data-bs-theme="dark">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
     </main>
 
-    <div class="navbar-bottom">
+    <div class="navbar-bottom fixed-bottom">
         <nav>
             <ul>
                 <li><p class="copyright">© 2023 Ellen Kim</p></li>

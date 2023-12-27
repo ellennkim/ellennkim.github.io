@@ -152,4 +152,25 @@ nav ul li a:hover {
     padding: 2%;
 }
 
+.carousel-caption {
+    color: white;
+    background-color: var(--main-color);
+}
 
+.carousel-title {
+    font-weight: bold;
+}
+
+/* Custom styles for carousel slides */
+.carousel-item img {
+    max-height: 300px; /* Adjust the maximum height as needed */
+    width: auto; /* Maintain aspect ratio */
+    justify-content: center;
+    opacity: 70%;
+}
+
+/* Optionally adjust the carousel container size */
+.carousel {
+    max-width: 600px; /* Adjust the maximum width as needed */
+    margin: auto; /* Center the carousel on the page */
+}
