@@ -38,7 +38,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Caudex-Regular, sans-serif;
-    overflow: hidden;
+    overflow: auto;
 }
 
 header {
@@ -114,16 +114,21 @@ nav ul li a:hover {
     text-shadow: 2px 2px 4px var(--highlight-color);
 }
 
-.outlined-jumbotron {
-    border: 2px solid #007bff; /* Set the desired border color */
-    padding: 20px;
+.outlined-jumbotron{
+    color: var(--main-color);
+    padding: 2vw;
+    margin: 0;
+}
+
+.jumbotron-text {
+    text-align: center;
 }
 
 .front-p5 {
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 0; /* Place canvas behind other elements */
+    z-index: 0;
 }
 
 .copyright {
@@ -133,9 +138,18 @@ nav ul li a:hover {
 .jumbotron-title {
     font-style: italic;
     font-weight: bold;
+    padding-bottom: 3px;
 }
 
 .korean-name {
     float: right;
     color: var(--blue-two);
 }
+
+.jumbotron-intro {
+    font-weight: bold;
+    text-align: center;
+    padding: 2%;
+}
+
+
