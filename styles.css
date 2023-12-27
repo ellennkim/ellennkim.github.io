@@ -163,14 +163,13 @@ nav ul li a:hover {
 
 /* Custom styles for carousel slides */
 .carousel-item img {
-    max-height: 300px; /* Adjust the maximum height as needed */
-    width: auto; /* Maintain aspect ratio */
-    justify-content: center;
+    max-height: 50%; /* Adjust the maximum height as needed */
     opacity: 70%;
+    margin: auto;
 }
 
 /* Optionally adjust the carousel container size */
 .carousel {
-    max-width: 600px; /* Adjust the maximum width as needed */
+    max-width: 50%;
     margin: auto; /* Center the carousel on the page */
 }
