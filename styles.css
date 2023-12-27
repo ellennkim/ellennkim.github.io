@@ -161,15 +161,23 @@ nav ul li a:hover {
     font-weight: bold;
 }
 
-/* Custom styles for carousel slides */
 .carousel-item img {
-    max-height: 50%; /* Adjust the maximum height as needed */
+    max-height: 50%;
     opacity: 70%;
     margin: auto;
 }
 
-/* Optionally adjust the carousel container size */
 .carousel {
     max-width: 50%;
-    margin: auto; /* Center the carousel on the page */
+    margin: auto; 
+    border: 2px var(--main-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: var(--main-color); /* Set the desired arrow color */
 }
