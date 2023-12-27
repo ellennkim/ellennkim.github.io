@@ -1,2 +1,2 @@
 # ellennkim.github.io
-Ellen's personal website
+My personal website!
